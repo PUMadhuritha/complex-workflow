@@ -1,0 +1,9 @@
+name: Hello-World
+
+on: push
+
+jobs:
+  windows:
+    runs-on: windows-latest
+    steps: 
+    - run: echo "Hello World!"

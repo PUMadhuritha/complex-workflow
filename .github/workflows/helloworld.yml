@@ -6,7 +6,7 @@ jobs:
   windows:
     runs-on: windows-latest
     steps: 
-    - run: python hello.py
+    - run: echo "Hello World!"
   
     
     
